@@ -3,21 +3,6 @@
   <Items>
     <LogicalFolder Name="連線" Type="2" Sorted="true">
       <Items>
-        <ConnectionNode Name="C501A129:abc">
-          <Created>2025-07-10T13:27:45.1798673+08:00</Created>
-          <Type>SQL</Type>
-          <Server>C501A129</Server>
-          <UserName>abc</UserName>
-          <Authentication>SQL</Authentication>
-          <InitialDB />
-          <LoginTimeout>30</LoginTimeout>
-          <TrustServerCertificate>True</TrustServerCertificate>
-          <HostNameInServerCertificate />
-          <EncryptionOption>True</EncryptionOption>
-          <ExecutionTimeout>0</ExecutionTimeout>
-          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
-          <ApplicationName>Microsoft SQL Server Management Studio - 查詢</ApplicationName>
-        </ConnectionNode>
         <ConnectionNode Name="C501A129:C501A129\user">
           <Created>2025-05-09T15:34:21.9638705+08:00</Created>
           <Type>SQL</Type>
@@ -206,45 +191,45 @@
           <FullPath>32Strored Procedurer.sql</FullPath>
         </FileNode>
         <FileNode Name="33Trigger.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A129:False:abc</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>C501A129</AssociatedConnSrvName>
-          <AssociatedConnUserName>abc</AssociatedConnUserName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
           <FullPath>33Trigger.sql</FullPath>
         </FileNode>
         <FileNode Name="34Trigger.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A129:False:abc</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>C501A129</AssociatedConnSrvName>
-          <AssociatedConnUserName>abc</AssociatedConnUserName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
           <FullPath>34Trigger.sql</FullPath>
         </FileNode>
         <FileNode Name="35Trigger.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A129:False:abc</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>C501A129</AssociatedConnSrvName>
-          <AssociatedConnUserName>abc</AssociatedConnUserName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
           <FullPath>35Trigger.sql</FullPath>
         </FileNode>
         <FileNode Name="36Trigger.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A129:False:abc</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>C501A129</AssociatedConnSrvName>
-          <AssociatedConnUserName>abc</AssociatedConnUserName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
           <FullPath>36Trigger.sql</FullPath>
         </FileNode>
         <FileNode Name="37View.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A129:False:abc</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>C501A129</AssociatedConnSrvName>
-          <AssociatedConnUserName>abc</AssociatedConnUserName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
           <FullPath>37View.sql</FullPath>
         </FileNode>
         <FileNode Name="38SetOpeation.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A129:False:abc</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>C501A129</AssociatedConnSrvName>
-          <AssociatedConnUserName>abc</AssociatedConnUserName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
           <FullPath>38SetOpeation.sql</FullPath>
         </FileNode>
         <FileNode Name="39CTE.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A129:False:abc</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>C501A129</AssociatedConnSrvName>
-          <AssociatedConnUserName>abc</AssociatedConnUserName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
           <FullPath>39CTE.sql</FullPath>
         </FileNode>
         <FileNode Name="quiz.sql">
@@ -258,6 +243,12 @@
           <AssociatedConnSrvName>C501A129</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>SQLQuery1.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery4.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A129:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>C501A129</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery4.sql</FullPath>
         </FileNode>
       </Items>
     </LogicalFolder>
