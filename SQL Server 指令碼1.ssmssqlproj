@@ -77,8 +77,8 @@
           <FullPath>10Select_join.sql</FullPath>
         </FileNode>
         <FileNode Name="11Select_QuterJoin.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A129:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>C501A129</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>11Select_QuterJoin.sql</FullPath>
         </FileNode>
@@ -227,8 +227,8 @@
           <FullPath>38SetOpeation.sql</FullPath>
         </FileNode>
         <FileNode Name="39CTE.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A129:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>C501A129</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>39CTE.sql</FullPath>
         </FileNode>
@@ -237,6 +237,12 @@
           <AssociatedConnSrvName>C501A129</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>quiz.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Quiz_02.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A129:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>C501A129</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Quiz_02.sql</FullPath>
         </FileNode>
         <FileNode Name="SQLQuery1.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A129:True</AssociatedConnectionMoniker>
