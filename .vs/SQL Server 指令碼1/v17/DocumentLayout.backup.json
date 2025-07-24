@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{3B209923-EAC5-AAA9-6254-DE0E92641B06}|SQL Server \u6307\u4EE4\u78BC1.ssmssqlproj|solutionrelative:25T-SQL.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{3B209923-EAC5-AAA9-6254-DE0E92641B06}|SQL Server \u6307\u4EE4\u78BC1.ssmssqlproj|H:\\SQL\\SQL Server \u6307\u4EE4\u78BC1\\SQL Server \u6307\u4EE4\u78BC1\\Quiz_02.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}",
+      "RelativeMoniker": "D:0:0:{3B209923-EAC5-AAA9-6254-DE0E92641B06}|SQL Server \u6307\u4EE4\u78BC1.ssmssqlproj|solutionrelative:Quiz_02.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3B209923-EAC5-AAA9-6254-DE0E92641B06}|SQL Server \u6307\u4EE4\u78BC1.ssmssqlproj|H:\\SQL\\SQL Server \u6307\u4EE4\u78BC1\\SQL Server \u6307\u4EE4\u78BC1\\27T-SQL.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}",
       "RelativeMoniker": "D:0:0:{3B209923-EAC5-AAA9-6254-DE0E92641B06}|SQL Server \u6307\u4EE4\u78BC1.ssmssqlproj|solutionrelative:27T-SQL.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}"
     }
@@ -33,7 +37,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "27T-SQL.sql - C501A129.\u5317\u98A8 (C501A129\\user (75))",
               "DocumentMoniker": "H:\\SQL\\SQL Server \u6307\u4EE4\u78BC1\\SQL Server \u6307\u4EE4\u78BC1\\27T-SQL.sql",
               "RelativeDocumentMoniker": "27T-SQL.sql",
@@ -41,6 +45,38 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
               "WhenOpened": "2025-07-24T06:11:11.634Z",
               "EditorCaption": " - C501A129.\u5317\u98A8 (C501A129\\user (75))"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "3c8bb691-ff8d-4b04-b885-863e0c213741",
+        "Display": 0,
+        "X": 241,
+        "Y": 9,
+        "Width": 1230,
+        "Height": 966,
+        "WindowState": 2
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Quiz_02.sql - C501A129.Northwind (C501A129\\user (54))",
+              "DocumentMoniker": "H:\\SQL\\SQL Server \u6307\u4EE4\u78BC1\\SQL Server \u6307\u4EE4\u78BC1\\Quiz_02.sql",
+              "RelativeDocumentMoniker": "Quiz_02.sql",
+              "ToolTip": "Quiz_02.sql - C501A129.Northwind (C501A129\\user (54))",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-07-23T04:26:28.829Z",
+              "EditorCaption": " - C501A129.Northwind (C501A129\\user (54))"
             }
           ]
         }

@@ -83,8 +83,8 @@
           <FullPath>11Select_QuterJoin.sql</FullPath>
         </FileNode>
         <FileNode Name="12DataType.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A129:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>C501A129</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>12DataType.sql</FullPath>
         </FileNode>
