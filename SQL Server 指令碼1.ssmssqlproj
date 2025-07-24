@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="SQL Server 指令碼1">
+<SqlWorkbenchSqlProject xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="SQL Server 指令碼1">
   <Items>
     <LogicalFolder Name="連線" Type="2" Sorted="true">
       <Items>
@@ -255,6 +255,12 @@
           <AssociatedConnSrvName>C501A129</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>SQLQuery4.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery6.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery6.sql</FullPath>
         </FileNode>
       </Items>
     </LogicalFolder>

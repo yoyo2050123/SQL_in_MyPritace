@@ -21,9 +21,11 @@ order by UnitsInStock desc
 
 select *
 from Orders
+where ShippedDate is null;
 
-SELECT name, physical_name
-FROM sys.master_files
-WHERE database_id = DB_ID('GoodStore');
+--²Ä¤­ÃD
+select *
+from OrderDetails
+where  Quantity BETWEEN 20 and 40
+order by Quantity;
 
-create database MYDA;
