@@ -257,8 +257,8 @@
           <FullPath>SQLQuery4.sql</FullPath>
         </FileNode>
         <FileNode Name="SQLQuery6.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A129:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>C501A129</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>SQLQuery6.sql</FullPath>
         </FileNode>
