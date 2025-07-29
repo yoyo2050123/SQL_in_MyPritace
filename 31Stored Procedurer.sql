@@ -4,7 +4,12 @@ create Procedure getOrderListWithOtherData
 as 
 begin 
 
-SELECT          供應商.供應商編號, 客戶.客戶編號, 員工.姓名, 員工.員工編號, 客戶.公司名稱, 供應商.地址
+SELECT 供應商.供應商編號, 
+客戶.客戶編號, 
+員工.姓名,
+員工.員工編號,
+客戶.公司名稱,
+供應商.地址
 FROM              供應商 CROSS JOIN
                             客戶 CROSS JOIN
                             員工

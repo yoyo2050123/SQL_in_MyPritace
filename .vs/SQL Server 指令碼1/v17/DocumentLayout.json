@@ -1,22 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "H:\\SQL\\SQL Server \u6307\u4EE4\u78BC1\\SQL Server \u6307\u4EE4\u78BC1\\",
+  "WorkspaceRootPath": "D:\\SQL\\SQL_in_MyPritace\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3B209923-EAC5-AAA9-6254-DE0E92641B06}|SQL Server \u6307\u4EE4\u78BC1.ssmssqlproj|H:\\SQL\\SQL Server \u6307\u4EE4\u78BC1\\SQL Server \u6307\u4EE4\u78BC1\\31Stored Procedurer.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}",
-      "RelativeMoniker": "D:0:0:{3B209923-EAC5-AAA9-6254-DE0E92641B06}|SQL Server \u6307\u4EE4\u78BC1.ssmssqlproj|solutionrelative:31Stored Procedurer.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B209923-EAC5-AAA9-6254-DE0E92641B06}|SQL Server \u6307\u4EE4\u78BC1.ssmssqlproj|H:\\SQL\\SQL Server \u6307\u4EE4\u78BC1\\SQL Server \u6307\u4EE4\u78BC1\\32Strored Procedurer.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}",
-      "RelativeMoniker": "D:0:0:{3B209923-EAC5-AAA9-6254-DE0E92641B06}|SQL Server \u6307\u4EE4\u78BC1.ssmssqlproj|solutionrelative:32Strored Procedurer.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B209923-EAC5-AAA9-6254-DE0E92641B06}|SQL Server \u6307\u4EE4\u78BC1.ssmssqlproj|H:\\SQL\\SQL Server \u6307\u4EE4\u78BC1\\SQL Server \u6307\u4EE4\u78BC1\\Quiz_02.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}",
+      "AbsoluteMoniker": "D:0:0:{3B209923-EAC5-AAA9-6254-DE0E92641B06}|SQL Server \u6307\u4EE4\u78BC1.ssmssqlproj|D:\\SQL\\SQL_in_MyPritace\\Quiz_02.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}",
       "RelativeMoniker": "D:0:0:{3B209923-EAC5-AAA9-6254-DE0E92641B06}|SQL Server \u6307\u4EE4\u78BC1.ssmssqlproj|solutionrelative:Quiz_02.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3B209923-EAC5-AAA9-6254-DE0E92641B06}|SQL Server \u6307\u4EE4\u78BC1.ssmssqlproj|H:\\SQL\\SQL Server \u6307\u4EE4\u78BC1\\SQL Server \u6307\u4EE4\u78BC1\\24GO.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}",
+      "AbsoluteMoniker": "D:0:0:{3B209923-EAC5-AAA9-6254-DE0E92641B06}|SQL Server \u6307\u4EE4\u78BC1.ssmssqlproj|D:\\SQL\\SQL_in_MyPritace\\29Function.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}",
+      "RelativeMoniker": "D:0:0:{3B209923-EAC5-AAA9-6254-DE0E92641B06}|SQL Server \u6307\u4EE4\u78BC1.ssmssqlproj|solutionrelative:29Function.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B209923-EAC5-AAA9-6254-DE0E92641B06}|SQL Server \u6307\u4EE4\u78BC1.ssmssqlproj|D:\\SQL\\SQL_in_MyPritace\\24GO.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}",
       "RelativeMoniker": "D:0:0:{3B209923-EAC5-AAA9-6254-DE0E92641B06}|SQL Server \u6307\u4EE4\u78BC1.ssmssqlproj|solutionrelative:24GO.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B209923-EAC5-AAA9-6254-DE0E92641B06}|SQL Server \u6307\u4EE4\u78BC1.ssmssqlproj|D:\\SQL\\SQL_in_MyPritace\\16insert.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}",
+      "RelativeMoniker": "D:0:0:{3B209923-EAC5-AAA9-6254-DE0E92641B06}|SQL Server \u6307\u4EE4\u78BC1.ssmssqlproj|solutionrelative:16insert.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,40 +26,40 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "32Strored Procedurer.sql - C501A129.\u5317\u98A8 (C501A129\\user (69))",
-              "DocumentMoniker": "H:\\SQL\\SQL Server \u6307\u4EE4\u78BC1\\SQL Server \u6307\u4EE4\u78BC1\\32Strored Procedurer.sql",
-              "RelativeDocumentMoniker": "32Strored Procedurer.sql",
-              "ToolTip": "32Strored Procedurer.sql - C501A129.\u5317\u98A8 (C501A129\\user (69))",
+              "DocumentIndex": 2,
+              "Title": "24GO.sql - KAZE.master (kaze\\yoyo2 (53))",
+              "DocumentMoniker": "D:\\SQL\\SQL_in_MyPritace\\24GO.sql",
+              "RelativeDocumentMoniker": "24GO.sql",
+              "ToolTip": "24GO.sql - KAZE.master (kaze\\yoyo2 (53))",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-07-28T05:34:37.944Z",
-              "EditorCaption": " - C501A129.\u5317\u98A8 (C501A129\\user (69))"
+              "WhenOpened": "2025-07-29T16:07:50.858Z",
+              "EditorCaption": " - KAZE.master (kaze\\yoyo2 (53))"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "16insert.sql - KAZE.master (kaze\\yoyo2 (54))",
+              "DocumentMoniker": "D:\\SQL\\SQL_in_MyPritace\\16insert.sql",
+              "RelativeDocumentMoniker": "16insert.sql",
+              "ToolTip": "16insert.sql - KAZE.master (kaze\\yoyo2 (54))",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-07-29T16:07:21.233Z",
+              "EditorCaption": " - KAZE.master (kaze\\yoyo2 (54))"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "31Stored Procedurer.sql - C501A129.\u5317\u98A8 (C501A129\\user (64))",
-              "DocumentMoniker": "H:\\SQL\\SQL Server \u6307\u4EE4\u78BC1\\SQL Server \u6307\u4EE4\u78BC1\\31Stored Procedurer.sql",
-              "RelativeDocumentMoniker": "31Stored Procedurer.sql",
-              "ToolTip": "31Stored Procedurer.sql - C501A129.\u5317\u98A8 (C501A129\\user (64))",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-07-28T05:30:10.467Z",
-              "EditorCaption": " - C501A129.\u5317\u98A8 (C501A129\\user (64))"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Quiz_02.sql - C501A129.MySchool (C501A129\\user (67))",
-              "DocumentMoniker": "H:\\SQL\\SQL Server \u6307\u4EE4\u78BC1\\SQL Server \u6307\u4EE4\u78BC1\\Quiz_02.sql",
+              "Title": "Quiz_02.sql - KAZE.MySchool (kaze\\yoyo2 (88))",
+              "DocumentMoniker": "D:\\SQL\\SQL_in_MyPritace\\Quiz_02.sql",
               "RelativeDocumentMoniker": "Quiz_02.sql",
-              "ToolTip": "Quiz_02.sql - C501A129.MySchool (C501A129\\user (67))",
+              "ToolTip": "Quiz_02.sql - KAZE.MySchool (kaze\\yoyo2 (88))",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
               "WhenOpened": "2025-07-28T00:57:45.688Z",
-              "EditorCaption": " - C501A129.MySchool (C501A129\\user (67))"
+              "EditorCaption": " - KAZE.MySchool (kaze\\yoyo2 (88))"
             }
           ]
         }
@@ -69,12 +69,12 @@
       "Orientation": 0,
       "VerticalTabListWidth": 256,
       "FloatingWindowState": {
-        "Id": "048a038c-14bf-4b20-9462-2bbf17ae2038",
+        "Id": "ba929149-8525-44e2-ba25-e94d4f4b4645",
         "Display": 1,
-        "X": 17,
-        "Y": 0,
-        "Width": 1826,
-        "Height": 838,
+        "X": 287,
+        "Y": 356,
+        "Width": 1842,
+        "Height": 1112,
         "WindowState": 2
       },
       "DocumentGroups": [
@@ -84,14 +84,14 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "24GO.sql - C501A129.\u5317\u98A8 (C501A129\\user (72))",
-              "DocumentMoniker": "H:\\SQL\\SQL Server \u6307\u4EE4\u78BC1\\SQL Server \u6307\u4EE4\u78BC1\\24GO.sql",
-              "RelativeDocumentMoniker": "24GO.sql",
-              "ToolTip": "24GO.sql - C501A129.\u5317\u98A8 (C501A129\\user (72))",
+              "DocumentIndex": 1,
+              "Title": "29Function.sql - KAZE.GoodStore (kaze\\yoyo2 (51))",
+              "DocumentMoniker": "D:\\SQL\\SQL_in_MyPritace\\29Function.sql",
+              "RelativeDocumentMoniker": "29Function.sql",
+              "ToolTip": "29Function.sql - KAZE.GoodStore (kaze\\yoyo2 (51))",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-07-28T01:42:46.161Z",
-              "EditorCaption": " - C501A129.\u5317\u98A8 (C501A129\\user (72))"
+              "WhenOpened": "2025-07-29T15:22:39.793Z",
+              "EditorCaption": " - KAZE.GoodStore (kaze\\yoyo2 (51))"
             }
           ]
         }

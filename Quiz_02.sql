@@ -235,11 +235,58 @@ check (DeptID not like '%[^A-Z]%')
 
 --任務四
 create procedure InsertDeptmentData
- 
+ @DeptID nchar(1), @DeptName nvarchar(30)
+as
+begin
+	declare @Deid nchar(1),@DeName nvarchar(30)
+SELECT @Deid = DeptID FROM Department WHERE DeptID = @DeptID
+SELECT @DeName = DeptName FROM Department WHERE  DeptName = @DeptName
+
+
+		if @Deid  is null AND @DeName is null
+		insert into [Department] values( @DeptID,@DeptName)
+	else
+		print '你的deptID或是deName重複了'
+end
 
 
 
+ exec InsertDeptmentData 'B','陳老王'
+ --任務五
+ --請利用任務三所建立的【MySchool】資料庫，建立一個名為「getCourseID」的自訂函數，
+ --其功能為新增課程資料時可呼叫此函數自動取得一個新的課程編號。
+ --CourseID的編碼規則為英文字母C加上開課科系代碼再加上3碼流水號。
+ --(例如科系代碼為G開的第123門課程，CourseID為CG123，科系代碼為B開的第1門課程，CourseID為CB001)。
+ create function getCourseID(@DeptID nchar(1))
+	returns nchar(5)
+	
+as 
+begin
+	
+	declare @lastID nchar(5), @NewID nchar(5)
+	declare @lastNum int
+	
+	select top 1 @lastID=CourseID
+	from [Course]
+	WHERE CourseID LIKE 'C' + @DeptID + '%'
+    ORDER BY CourseID DESC
 
+	--若今天沒有任何課程資料則為'0001'
+	if @lastID is null
+		set @newID='C'+@DeptID+'001'  --今天的第一張流水單
+	else
+		SET @lastNum = CAST(RIGHT(@lastID, 3) AS int)
+
+    SET @lastNum = @lastNum + 1
+
+    SET @newID = 'C' + @DeptID + RIGHT('000' + CAST(@lastNum AS varchar), 3)
+	return @newID
+
+end
+select dbo.getCourseID('A') 
+
+
+select 
 
 
 

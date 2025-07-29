@@ -7,11 +7,39 @@
 --(例如202412212015為2024/12/12第2015張訂單的編號)
 --(例如202506270001為2025/6/27第1張訂單的編號)
 
-alter function getOrderID()
-	returns nchar(8)
-as 
-begin 
-	return convert(varchar,getdate(),111)
+
+create function getOrderID()
+	returns nchar(12)
+as
+begin
+	--取得當天日期年月日(8碼)
+	declare @today char(8) = convert(varchar, getdate(), 112)
+
+
+	--四碼流水號產生規則
+
+	--1.抓今天最後一張訂單號碼加1
+	declare @lastID nchar(12) , @newID nchar(12)
+
+	select top 1 @lastID=OrderID
+	from [Order]
+	where convert(varchar, OrderDate, 112) = @today
+	order by OrderDate desc
+
+	--2.若今天沒有任何訂單則為'0001'
+	if @lastID is null
+		set @newID=@today+'0001'  --今天的第一張訂單
+	else
+		set @newID = cast( cast(@lastID as bigint)+1  as nchar)
+	
+	
+
+	return @newID
 end
------------------
-print '現在的的單號是:'+dbo.getOrderID()
+
+
+--測試
+print dbo.getOrderID()
+
+
+insert into [order] values( dbo.getOrderID(),getdate(),'M00001','張小英','adfdfdf')
