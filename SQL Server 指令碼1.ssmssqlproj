@@ -3,10 +3,10 @@
   <Items>
     <LogicalFolder Name="連線" Type="2" Sorted="true">
       <Items>
-        <ConnectionNode Name="KAZE:kaze\yoyo2">
-          <Created>2025-07-29T16:42:43.2345683+08:00</Created>
+        <ConnectionNode Name="C501A129:C501A129\user">
+          <Created>2025-07-30T13:45:05.4236387+08:00</Created>
           <Type>SQL</Type>
-          <Server>KAZE</Server>
+          <Server>C501A129</Server>
           <UserName />
           <Authentication>Windows 驗證</Authentication>
           <InitialDB />
@@ -16,7 +16,7 @@
           <EncryptionOption>True</EncryptionOption>
           <ExecutionTimeout>0</ExecutionTimeout>
           <ConnectionProtocol>NotSpecified</ConnectionProtocol>
-          <ApplicationName />
+          <ApplicationName>Microsoft SQL Server Management Studio - 查詢</ApplicationName>
         </ConnectionNode>
       </Items>
     </LogicalFolder>
@@ -101,14 +101,14 @@
           <FullPath>14Select+order_by.sql</FullPath>
         </FileNode>
         <FileNode Name="16insert.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KAZE:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>KAZE</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A129:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>C501A129</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>16insert.sql</FullPath>
         </FileNode>
         <FileNode Name="17Update.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KAZE:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>KAZE</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>17Update.sql</FullPath>
         </FileNode>
@@ -137,14 +137,14 @@
           <FullPath>23DDL_drop.sql</FullPath>
         </FileNode>
         <FileNode Name="24GO.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KAZE:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>KAZE</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>24GO.sql</FullPath>
         </FileNode>
         <FileNode Name="25T-SQL.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KAZE:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>KAZE</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>25T-SQL.sql</FullPath>
         </FileNode>
@@ -161,14 +161,14 @@
           <FullPath>27T-SQL.sql</FullPath>
         </FileNode>
         <FileNode Name="28Function.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KAZE:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>KAZE</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>28Function.sql</FullPath>
         </FileNode>
         <FileNode Name="29Function.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KAZE:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>KAZE</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A129:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>C501A129</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>29Function.sql</FullPath>
         </FileNode>
@@ -179,20 +179,20 @@
           <FullPath>30Function.sql</FullPath>
         </FileNode>
         <FileNode Name="31Stored Procedurer.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KAZE:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>KAZE</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>31Stored Procedurer.sql</FullPath>
         </FileNode>
         <FileNode Name="32Strored Procedurer.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KAZE:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>KAZE</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>32Strored Procedurer.sql</FullPath>
         </FileNode>
         <FileNode Name="33Trigger.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KAZE:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>KAZE</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>33Trigger.sql</FullPath>
         </FileNode>
@@ -239,26 +239,26 @@
           <FullPath>quiz.sql</FullPath>
         </FileNode>
         <FileNode Name="Quiz_02.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KAZE:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>KAZE</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A129:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>C501A129</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>Quiz_02.sql</FullPath>
         </FileNode>
         <FileNode Name="SQLQuery1.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KAZE:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>KAZE</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>SQLQuery1.sql</FullPath>
         </FileNode>
         <FileNode Name="SQLQuery4.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KAZE:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>KAZE</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>SQLQuery4.sql</FullPath>
         </FileNode>
         <FileNode Name="SQLQuery6.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KAZE:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>KAZE</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>SQLQuery6.sql</FullPath>
         </FileNode>

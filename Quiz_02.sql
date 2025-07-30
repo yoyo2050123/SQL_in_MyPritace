@@ -257,7 +257,9 @@ end
  --其功能為新增課程資料時可呼叫此函數自動取得一個新的課程編號。
  --CourseID的編碼規則為英文字母C加上開課科系代碼再加上3碼流水號。
  --(例如科系代碼為G開的第123門課程，CourseID為CG123，科系代碼為B開的第1門課程，CourseID為CB001)。
- create function getCourseID(@DeptID nchar(1))
+ use [MySchool]
+ go
+ create or alter function getCourseID(@DeptID nchar(1))
 	returns nchar(5)
 	
 as 
@@ -272,21 +274,36 @@ begin
     ORDER BY CourseID DESC
 
 	--若今天沒有任何課程資料則為'0001'
+	
 	if @lastID is null
+	begin
 		set @newID='C'+@DeptID+'001'  --今天的第一張流水單
+		
+	end
 	else
-		SET @lastNum = CAST(RIGHT(@lastID, 3) AS int)
+	begin
+	
+	SET @lastNum = CAST(RIGHT(@lastID, 3) AS int)
 
     SET @lastNum = @lastNum + 1
 
     SET @newID = 'C' + @DeptID + RIGHT('000' + CAST(@lastNum AS varchar), 3)
+	
+	end
 	return @newID
-
 end
-select dbo.getCourseID('A') 
+go
+
+declare @test  nchar(5)
+set @test = dbo.getCourseID('C')
+print @test;
+--執行過後是CC007
+
+insert into [Course] values ('CC006', '成功學', default,default,'C')
 
 
-select 
+select *
+from Course
 
 
 
